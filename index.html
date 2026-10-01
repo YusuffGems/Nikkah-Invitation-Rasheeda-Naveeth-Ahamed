@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikkah Invitation · Rasheeda & Naveeth</title>
+  <meta name="description" content="Nikkah of M.A. Alkaviun Rasheeda with J. Naveeth Ahamed — Sunday, 15th November 2026, M.S. Mahal, Royapettah, Chennai." />
+  <meta property="og:title" content="Nikkah Invitation · Rasheeda weds Naveeth" />
+  <meta property="og:description" content="Sunday, 15th November 2026 · 6.00 – 7.00 p.m. · M.S. Mahal, Royapettah, Chennai" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Noto+Sans+Tamil:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="locked">
+
+  <!-- Falling petals / sparkle layer -->
+  <canvas id="petals" aria-hidden="true"></canvas>
+
+  <!-- ============ GATE COVER ============ -->
+  <section id="gate" aria-label="Invitation cover">
+    <div class="door door-left">
+      <div class="door-inner">
+        <div class="door-border"></div>
+        <div class="door-arch">
+          <svg viewBox="0 0 200 400" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M200 400 V150 Q200 40 100 20 Q30 40 20 150 V400" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M200 400 V160 Q200 60 110 40 Q45 60 38 160 V400" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
+          </svg>
+        </div>
+        <div class="vine vine-l"></div>
+      </div>
+    </div>
+    <div class="door door-right">
+      <div class="door-inner">
+        <div class="door-border"></div>
+        <div class="door-arch">
+          <svg viewBox="0 0 200 400" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 400 V150 Q0 40 100 20 Q170 40 180 150 V400" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M0 400 V160 Q0 60 90 40 Q155 60 162 160 V400" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
+          </svg>
+        </div>
+        <div class="vine vine-r"></div>
+      </div>
+    </div>
+
+    <div class="gate-center">
+      <div class="medallion">
+        <svg class="medallion-ring" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f6e3a6"/>
+              <stop offset=".5" stop-color="#c9a24a"/>
+              <stop offset="1" stop-color="#8a6a22"/>
+            </linearGradient>
+          </defs>
+          <g id="petalRing"></g>
+          <circle cx="100" cy="100" r="58" fill="#fffaf2" stroke="url(#gold)" stroke-width="3"/>
+          <circle cx="100" cy="100" r="52" fill="none" stroke="url(#gold)" stroke-width="1" stroke-dasharray="2 4"/>
+        </svg>
+        <div class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّٰهِ</div>
+      </div>
+      <p class="gate-title">Nikkah Invitation</p>
+      <p class="gate-names">Rasheeda <span>&amp;</span> Naveeth</p>
+      <button id="openBtn" class="btn-open" type="button">
+        <span>Open Invitation</span>
+      </button>
+      <p class="gate-hint">Tap to open</p>
+    </div>
+  </section>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main id="content" aria-hidden="true">
+
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="lantern lantern-1" aria-hidden="true"></div>
+      <div class="lantern lantern-2" aria-hidden="true"></div>
+      <p class="arabic-top reveal" lang="ar" dir="rtl">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+      <p class="small-caps reveal">In the name of Allah, the most beneficent, the most merciful</p>
+      <p class="salam reveal">Assalamu Alaikum (Warah)</p>
+
+      <div class="monogram reveal">
+        <svg viewBox="0 0 220 220" aria-hidden="true">
+          <circle class="draw" cx="110" cy="110" r="96" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <circle class="draw d2" cx="110" cy="110" r="88" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="3 5"/>
+        </svg>
+        <span class="mono-letters">R<em>N</em></span>
+      </div>
+
+      <h1 class="script-title reveal">Nikkah Invitation</h1>
+      <div class="divider reveal" aria-hidden="true"><span></span><i>❖</i><span></span></div>
+      <p class="hero-date reveal">Sunday · 15<sup>th</sup> November 2026</p>
+      <a href="#details" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- Parents & Couple -->
+    <section class="section card-section" id="details">
+      <div class="frame reveal">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+
+        <p class="parents">Mr. M.S. Arieeff &amp; Mrs. M.A. Mumtaj</p>
+        <p class="lead">solicit the pleasure of your presence with your family to grace the occasion of marriage <em>(Nikkah)</em> of our beloved daughter</p>
+
+        <div class="couple">
+          <h2 class="name bride">M.A. Alkaviun Rasheeda<small>M.B.A., Muballiga</small></h2>
+          <p class="with">with</p>
+          <h2 class="name groom">J. Naveeth Ahamed<small>B.Tech.</small></h2>
+          <p class="son-of">S/o (Late) Mr. Abdul Jallal &amp; Mrs. J. Rafia Sultana</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section class="section event">
+      <h3 class="section-title reveal">Insha Allah</h3>
+      <div class="event-grid">
+        <div class="event-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          </div>
+          <h4>Date</h4>
+          <p>Sunday, 15<sup>th</sup> November 2026</p>
+          <p class="muted">5<sup>th</sup> Jamada Al-Akhir, Hijri 1448</p>
+        </div>
+        <div class="event-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <h4>Nikkah</h4>
+          <p>Between 6.00 &amp; 7.00 p.m.</p>
+          <p class="muted">Maghrib time, Insha Allah</p>
+        </div>
+        <div class="event-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          </div>
+          <h4>Venue</h4>
+          <p>M.S. Mahal</p>
+          <p class="muted">O.No.41, N.No.48, Chella Pillayar Koil Street, Royapettah, Chennai – 600 014</p>
+          <p class="muted"><em>(opp to Amir Mahal, near Express Avenue)</em></p>
+        </div>
+      </div>
+
+      <!-- Countdown -->
+      <div class="countdown reveal" id="countdown" aria-live="polite">
+        <div><span id="cd-days">00</span><label>Days</label></div>
+        <div><span id="cd-hours">00</span><label>Hours</label></div>
+        <div><span id="cd-mins">00</span><label>Minutes</label></div>
+        <div><span id="cd-secs">00</span><label>Seconds</label></div>
+      </div>
+      <p class="cd-done" id="cdDone" hidden>Alhamdulillah — the Nikkah day is here!</p>
+
+      <div class="actions reveal">
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M.S.+Mahal+Chella+Pillayar+Koil+Street+Royapettah+Chennai+600014">
+          <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Get Directions
+        </a>
+        <button class="btn" type="button" id="calBtn">
+          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>
+          Add to Calendar
+        </button>
+        <button class="btn" type="button" id="shareBtn">
+          <svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+          Share
+        </button>
+      </div>
+
+      <div class="map-wrap reveal">
+        <iframe title="Map to M.S. Mahal, Royapettah" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=M.S.%20Mahal%20Chella%20Pillayar%20Koil%20Street%20Royapettah%20Chennai&z=16&output=embed"></iframe>
+      </div>
+    </section>
+
+    <!-- Quran & Dua -->
+    <section class="section verse">
+      <div class="verse-card reveal">
+        <p class="ta" lang="ta">மனிதர்களே,<br/>உங்கள் ரப்பை நீங்கள் அஞ்சிக்கொள்ளுங்கள்.
+          அவன் எத்தகையவன் என்றால் உங்களை ஒரே ஆத்மாவிலிருந்து படைத்தான்;
+          அதிலிருந்து அதற்குரிய இணையை (மனைவியை) படைத்தான்.</p>
+        <p class="ref">அல்குர்ஆன் 4:1</p>
+      </div>
+
+      <div class="divider reveal" aria-hidden="true"><span></span><i>❖</i><span></span></div>
+
+      <div class="dua reveal">
+        <p class="ta small" lang="ta">நபிகள் நாயகம் (ஸல்) அவர்கள் மணமக்களுக்கு ஓதிய துஆ</p>
+        <p class="arabic" lang="ar" dir="rtl">بَارَكَ ٱللَّٰهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
+        <p class="ta" lang="ta"><strong>பொருள்:</strong> அல்லாஹ் உங்களுக்கு பரக்கத் செய்வானாக. உங்கள் இருவர் மீதும் ரஹ்மத்தை இறக்கியருள்வானாக.
+          இன்னும் உங்கள் இருவரையும் நன்மையான காரியங்களில் ஒன்று சேர்ந்து வாழ நன்மை செய்வானாக.</p>
+        <p class="en-meaning">“May Allah bless you, shower His blessings upon you, and join you both together in goodness.”</p>
+      </div>
+    </section>
+
+    <!-- Tamil Invitation -->
+    <section class="section tamil" lang="ta">
+      <p class="ta-bismi reveal">பிஸ்மில்லாஹிர் ரஹ்மானிர் ரஹீம்</p>
+      <h3 class="ta-title reveal">நிக்காஹ் (எ) திருமண அழைப்பிதழ்</h3>
+      <p class="ta-quote reveal">“நிறைவுடைய வாழ்வளித்து நெடுநிலத்தை காப்பதற்கு மறையளித்த இறைவனுக்கே மாபெரும் புகழ் அனைத்தும்”</p>
+      <p class="ta small reveal">அஸ்ஸலாமு அலைக்கும் (வரஹ்)</p>
+
+      <div class="frame reveal">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <p class="ta left"><strong>அன்புடையீர்,</strong><br/>
+          எல்லாம் வல்ல அல்லாஹ்வின் பேரருளாலும் நபிகள் நாயகம் (ஸல்லல்லாஹு அலைஹி வஸல்லம்) அவர்களின்
+          துஆ பரக்கத்தாலும் இன்ஷா அல்லாஹ் நிகழும் ஹிஜ்ரி 1448ஆம் ஆண்டு ஜமாதுல் ஆகிர் பிறை 5 (15–11–2026)
+          ஞாயிற்றுக்கிழமை மாலை 6.00 மணிக்குமேல் 7.00 மணிக்குள்</p>
+
+        <div class="ta-couple">
+          <div class="ta-side">
+            <p class="ta small">(மர்ஹூம்) மக்கட்டி M. சாகுல் ஹமீது – (மர்ஹூம்) ஜமீலா பீவி மற்றும்
+              (மர்ஹூம்) கடைக்காரர் K. முஹம்மது உசேன் – (மர்ஹூம்) அஸன் பாத்து ஆகியோரின் பேத்தியும்,
+              மக்கட்டி M.S. ஆரிப் – M.A. மும்தாஜ் ஆகிய எங்களின் மகளுமான தீன்குலச்செல்வி</p>
+            <p class="ta-name">M.A. அல்கவியுன் ராஷிதா<small>MBA., Muballiga</small></p>
+            <p class="ta small">என்கிற மணமகளுக்கும்</p>
+          </div>
+          <div class="ta-flower" aria-hidden="true">❀</div>
+          <div class="ta-side">
+            <p class="ta small">(மர்ஹூம்) அப்துல் பஷீர் – (மர்ஹூம்) காஜா பல்கீஸ் மற்றும்
+              (மர்ஹூம்) ஜாஹிருத்தீன் ஷரீஃப் – அஷ்ரஃபுன்னிஸா ஆகியோரின் பேரனும்
+              (மர்ஹூம்) அப்துல் ஜலால் – ரஃபியா சுல்தானா அவர்களின் மகனுமான தீன்குலச்செல்வன்</p>
+            <p class="ta-name">J. நவீத் அகமது<small>B.Tech.</small></p>
+            <p class="ta small">என்கிற மணமகனுக்கும்</p>
+          </div>
+        </div>
+
+        <p class="ta left">நிக்காஹ் (திருமணம்) செய்ய பெரியோர்களால் நிச்சயித்தவண்ணம் பழைய எண். 41, புதிய எண். 48,
+          செல்ல பிள்ளையார் கோயில் தெரு, இராயப்பேட்டை, சென்னை–600 014 அமைந்துள்ள M.S. மஹாலில் நடைபெற இருக்கும்
+          நிக்காஹ் மஜ்லிஸிற்கு தாங்களும் தங்கள் குடும்பத்தினர் அனைவரும் வருகை தந்து மணமக்களின் நல்வாழ்விற்கு
+          துஆ செய்ய அன்புடன் அழைக்கின்றோம்.</p>
+
+        <div class="ta-sign">
+          <p class="ta small">தங்கள் அன்புள்ள</p>
+          <p class="ta-signname">M.S. ஆரிப்<br/>M.S. புகாரி சாகிபு</p>
+          <p class="ta small">3/106, நக்கீரன் தெரு, முகப்பேர் கிழக்கு, சென்னை – 600 037.<br/>செல்: 9094147144, 9094071156</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compliments -->
+    <section class="section people">
+      <h3 class="section-title reveal">With best compliments from</h3>
+      <ul class="names-grid reveal">
+        <li>Haaji M. Mohamed Mohideen</li>
+        <li>K.M. Abul Hussain</li>
+        <li>K.T. Mohamed Buhari</li>
+        <li>M.M. Masthan Labbai</li>
+        <li>T.A. Abdul Rahman</li>
+        <li>M.A. Hajee Syed Ali</li>
+        <li>M.H. Azarudeen</li>
+        <li>M.H. Abubacker Siddiq Ali</li>
+        <li>T.J. Hassan</li>
+        <li>T.J. Hussain</li>
+        <li>K.M. Kaja Mohideen</li>
+        <li>K.M. Basheer</li>
+        <li>K.A. Muthalif</li>
+        <li>K.A. Sheik &amp; Brothers</li>
+      </ul>
+
+      <h3 class="section-title reveal">Special Request</h3>
+      <ul class="names-grid reveal">
+        <li>M.A. Abdul Illyas</li>
+        <li>M. Mohamed Akmal Jahan</li>
+        <li>K.M. Ahmed Bilal</li>
+        <li>M.A. Bhurhan Muzammila</li>
+        <li>J. Mohammed Aameensha</li>
+        <li>J.A. Shahana Banu</li>
+        <li>J. Sameer</li>
+      </ul>
+
+      <h3 class="section-title reveal">Kutties</h3>
+      <ul class="names-grid kutties reveal">
+        <li>K.A. Afsiha</li>
+        <li>M.A. Ahnaf Mohammed</li>
+        <li>M.A. Hafsha Banu</li>
+      </ul>
+    </section>
+
+    <!-- Host -->
+    <section class="section host">
+      <div class="frame small reveal">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <p class="muted">With warm regards,</p>
+        <p class="host-name">M.S. Arieeff</p>
+        <p class="host-name">M.S. Buhari Sahib</p>
+        <p class="muted">3/106, Nakkeeran Street, Mogappair East, Chennai – 600 037</p>
+        <p class="phones">
+          <a href="tel:+919094147144">90941 47144</a>
+          <span>·</span>
+          <a href="tel:+919094071156">90940 71156</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="script">Your name is in our heart</p>
+      <p class="arabic small" lang="ar" dir="rtl">جَزَاكُمُ ٱللَّٰهُ خَيْرًا</p>
+      <p class="muted tiny">Rasheeda weds Naveeth · 15.11.2026</p>
+    </footer>
+  </main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
